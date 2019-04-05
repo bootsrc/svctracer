@@ -61,3 +61,11 @@ goods-service这里会调用foo-service
 ![](doc/image/zipkin-result-2.png)
 
 
+## 联系我们
+加QQ群讨论 
+<br/>
+![](doc/image/group-qrcode.png)
+
+微信公众号
+
+![](doc/image/public-account.jpg)
