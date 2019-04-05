@@ -1,0 +1,13 @@
+server.port: 28110
+
+logging:
+  level.org.springframework.web: DEBUG
+  # Adds trace and span IDs to logs (when a trace is in progress)
+  pattern.level: '[%X{X-B3-TraceId}/%X{X-B3-SpanId}]%-5p [%t] %C{2} - %m%n'
+
+spring:
+  application.name: goods-service
+  sleuth:
+    traceId128: true
+    sampler.probability: 1.0
+  zipkin.base-url: http://localhost:9411
